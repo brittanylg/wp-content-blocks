@@ -1,0 +1,17 @@
+api_version: 0.1
+active: true
+
+name: content-blocks
+public: true
+publicly_queryable: false
+hierarchical: true
+menu_icon: dashicons-layout
+
+labels:  
+  singular: Content Block
+  plural: Content Blocks
+
+supports:
+  - title
+  - editor
+  - thumbnail
