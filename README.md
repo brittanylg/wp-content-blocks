@@ -1,6 +1,6 @@
 # Content Blocks WordPress Post Type
 
-Creates a content-blocks custom post type and shortcode for display a single content block on the front end of a WordPress site. To be added to a WordPress child theme and included appropriately.
+Creates a content-blocks custom post type and shortcode for displaying a single content block on the front end of a WordPress site. To be added to a WordPress child theme and included appropriately.
 
 **Requires [dwalkr/wp-admin-utility](https://github.com/dwalkr/wp-admin-utility)**
 
@@ -15,18 +15,18 @@ To be used in place of theme options or widgets for unique blocks of content whi
 **Available Options**
 
 * **id** = post ID (required, default `''`)
-* **view** = view name sans file extension, located in child theme /view dir (required, default `'content-block'`)
+* **view** = view filename sans extension, located in child theme /views dir (required, default `'content-block'`)
 
 ## Example Directory Structure
 
 ```
-/view
+/child-theme
     /admin
         page-creator.php
         /post-types
             content-blocks.yml
         /src
             ContentBlocks.php
-    /tpl
+    /views
         content-block.php
 ```
